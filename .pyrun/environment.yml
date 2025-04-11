@@ -5,7 +5,7 @@
 # Add packages from conda-forge under "dependencies:"
 # Packages from PyPI should be added under "pip:"
 
-name: base
+name: test3
 channels:
   - conda-forge
 dependencies:
@@ -13,7 +13,22 @@ dependencies:
   - ipykernel
   - ipywidgets
   - git
-
-  # Dask packages
   - dask
   - dask-cloudprovider
+  - zarr
+  - xarray
+  - s3fs
+  - gcsfs
+  - cftime
+  - matplotlib
+  - esmpy 
+  - numpy 
+  - shapely 
+  - cf_xarray 
+  - sparse 
+  - numba
+  - tqdm
+  - pip:
+    - git+https://github.com/pangeo-data/xesmf.git
+    - cartopy
+    - intake-esm
