@@ -5,7 +5,7 @@
 # Add packages from conda-forge under "dependencies:"
 # Packages from PyPI should be added under "pip:"
 
-name: test3
+name: base
 channels:
   - conda-forge
 dependencies:
